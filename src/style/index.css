@@ -1,0 +1,50 @@
+table {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+}
+td {
+  height: 40px;
+  width: 40px;
+}
+#root {
+  position: static;
+  height: 400%;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  background: rgba(216, 153, 36, 0.808);
+  color: #000;
+}
+button {
+  background-color: rgba(216, 153, 36, 0.808);
+  color: rgb(85, 41, 12);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#buttons {
+  height: 100%;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+button:disabled {
+  background: rgba(192, 166, 117, 0.808) !important;
+}
+
+#end {
+  text-align: center;
+  font-size: 100px;
+  color: brown;
+}
+img {
+  width: 100%;
+  height: 100%;
+  height: auto;
+}
